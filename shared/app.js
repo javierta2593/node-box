@@ -76,7 +76,7 @@ var main = function ()
 
 	$('.route button').on('click', function (event) 
     {
-    	addCommentFromInputBox();
+    	getRoute();
 	});
     
     url = '';

@@ -24,7 +24,7 @@ var main = function ()
             	contentType: 'application/json',
             	success: function(data)
                 {
-                	$('#two').val(data.answer);
+                	$('#output-result').val(data.answer);
        			}
 			});
         }
@@ -43,7 +43,7 @@ var main = function ()
             	contentType: 'application/json',
             	success: function(data)
                 {
-                    $('#two').val(data.answer);
+                    $('#output-result').val(data.answer);
        			}
 			});
 

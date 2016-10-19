@@ -5,7 +5,7 @@ var main = function ()
 	'use strict';
     var url = '';
 
-	var addCommentFromInputBox = function () 
+	var getRoute = function () 
     {
 		var input = $('.route input').val();
 

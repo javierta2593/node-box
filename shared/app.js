@@ -63,13 +63,13 @@ var main = function ()
             	contentType: 'application/json',
             	success: function(data)
                 {
-                	$('#two').val(data.answer);
+                	$('#output-result').val(data.answer);
        			}
 			});
         }
 
         //resets the input box to default string
-        $('#one').val('');
+        $('#input-function').val('');
 
 	};
 
